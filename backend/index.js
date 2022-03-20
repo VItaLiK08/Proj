@@ -11,6 +11,6 @@ app.listen(PORT, ()=>{
 
 app.get('/api', (req, res) =>{
     res.json({
-        message: "Vlad say hay!"
+        message: "Hello world!"
     })
 } )
